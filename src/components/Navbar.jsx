@@ -13,10 +13,12 @@ import {
 const Navbar = () => {
   return (
     <div className="nav-container">
-      <Avatar src={icon} size="large" />
-      <Typography.Title level={2} className="logo">
-        <Link to="/">CryptoLand</Link>
-      </Typography.Title>
+      <div className="logo-container">
+        <Avatar src={icon} size="large" />
+        <Typography.Title level={2} className="logo">
+          <Link to="/">CryptoLand</Link>
+        </Typography.Title>
+      </div>
       <div className="logo-container">
         <Menu theme="dark">
           <Menu.Item icon={<HomeOutlined />}>
